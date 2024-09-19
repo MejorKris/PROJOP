@@ -1,4 +1,4 @@
-#Wersja 0.1 - Wersja początkowa
+# Wersja 0.1 - Wersja początkowa
 
 Opis:
 Stworzono podstawowy system logowania z wbudowanymi danymi logowania (nazwa jako 'marek' i haslo jako 'zs10').
