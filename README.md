@@ -31,10 +31,10 @@ Aplikacja działa na bazie sesji PHP. Kiedy użytkownik poprawnie się zaloguje,
 
 ## Wersja 0.2 - Refaktoryzacja z użyciem zasad Clean Code
 - Zastosowano zasady Clean Code, aby ulepszyć strukturę aplikacji.
-- DRY (Don't Repeat Yourself): Wyeliminowano powtarzalne fragmenty kodu związane z obsługą sesji i logowaniem, przenosząc je do osobnych funkcji w nowym pliku (`sesja.php`).
-- SRP (Single Responsibility Principle): Każdy plik oraz funkcja mają teraz jednoznacznie przypisaną odpowiedzialność. Logowanie i sprawdzanie danych użytkownika zostało --wydzielone do funkcji, a zarządzanie sesją oddzielono do pliku (`sesja.php`).
-- Meaningful Names: Zmieniono nazwy zmiennych i funkcji na bardziej opisowe, np. zmiana `$_SESSION['log']` na `$_SESSION['username']` oraz funkcji `sprawdzDaneLogowania()`.
-- KISS (Keep It Simple, Stupid): Uproszczono logikę formularza logowania i wylogowywania. Dodano prosty sposób sprawdzania, czy formularz został wysłany `($_SERVER['REQUEST_METHOD'] === 'POST')`.
-- YAGNI (You Ain't Gonna Need It): Usunięto niepotrzebne fragmenty kodu, które nie były używane ani potrzebne, aby poprawić czytelność i wydajność.
+- `DRY` (Don't Repeat Yourself): Wyeliminowano powtarzalne fragmenty kodu związane z obsługą sesji i logowaniem, przenosząc je do osobnych funkcji w nowym pliku (`sesja.php`).
+- `SRP` (Single Responsibility Principle): Każdy plik oraz funkcja mają teraz jednoznacznie przypisaną odpowiedzialność. Logowanie i sprawdzanie danych użytkownika zostało --wydzielone do funkcji, a zarządzanie sesją oddzielono do pliku (`sesja.php`).
+- `Meaningful Names:` Zmieniono nazwy zmiennych i funkcji na bardziej opisowe, np. zmiana `$_SESSION['log']` na `$_SESSION['username']` oraz funkcji `sprawdzDaneLogowania()`.
+- `KISS` (Keep It Simple, Stupid): Uproszczono logikę formularza logowania i wylogowywania. Dodano prosty sposób sprawdzania, czy formularz został wysłany `($_SERVER['REQUEST_METHOD'] === 'POST')`.
+- `YAGNI` (You Ain't Gonna Need It): Usunięto niepotrzebne fragmenty kodu, które nie były używane ani potrzebne, aby poprawić czytelność i wydajność.
 - Stworzono nowy plik (`sesja.php`) do obsługi funkcji sesji i zarządzania logowaniem.
 
