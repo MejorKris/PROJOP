@@ -46,6 +46,10 @@ Aplikacja działa na bazie sesji PHP. Kiedy użytkownik poprawnie się zaloguje,
 - Stworzono nowy plik (`sesja.php`) do obsługi funkcji sesji i zarządzania logowaniem.
 
 
+## Wersja 0.3 Beta - Stworzenie nowego projektu
+- Zamiana projektu logowania się na tłumaczenie słówek w języku hiszpańskim
+
+
 ## Wersja 0.4 Beta - Rozszerzenie funkcjonalności i optymalizacja
 
 **Dynamiczne przechowywanie słów w Local Storage:**
