@@ -45,3 +45,18 @@ Aplikacja działa na bazie sesji PHP. Kiedy użytkownik poprawnie się zaloguje,
 - **YAGNI** (You Ain't Gonna Need It): Usunięto niepotrzebne fragmenty kodu, które nie były używane ani potrzebne, aby poprawić czytelność i wydajność.
 - Stworzono nowy plik (`sesja.php`) do obsługi funkcji sesji i zarządzania logowaniem.
 
+
+## Wersja 0.4 Beta - Rozszerzenie funkcjonalności i optymalizacja
+
+**Dynamiczne przechowywanie słów w Local Storage:**
+- Użytkownicy mogą teraz zapisywać dodane słowa w przeglądarce, dzięki czemu będą one dostępne po ponownym uruchomieniu aplikacji.
+
+**Dodanie systemu statystyk:**
+- Licznik poprawnych odpowiedzi i ogólnej liczby pytań.
+- Wyświetlanie wyników użytkownika w czasie rzeczywistym.
+
+**Walidacja i podpowiedzi dla użytkownika:**
+- W przypadku błędnych odpowiedzi dodano możliwość wyświetlenia poprawnej odpowiedzi po trzech próbach.
+
+**Obsługa wielu poprawnych odpowiedzi:**
+- Dostosowanie funkcji `checkAnswer()` do uwzględnienia różnych poprawnych wariantów tłumaczenia.
