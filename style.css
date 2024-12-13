@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#addWordForm {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9f5e9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#addWordForm input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#addWordButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addWordButton:hover {
+    background-color: #45a049;
+}
+
+/* Stylizacja dla mniejszych ekranów */
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+#addWordForm {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9f5e9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#addWordForm input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#addWordButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#addWordButton:hover {
+    background-color: #45a049;
+}
+
+input, button {
+    width: 100%;
+    max-width: 300px; 
+    margin: 10px 0; 
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+}
+
+#statistics {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
