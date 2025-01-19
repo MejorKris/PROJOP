@@ -64,3 +64,6 @@ Aplikacja działa na bazie sesji PHP. Kiedy użytkownik poprawnie się zaloguje,
 
 **Obsługa wielu poprawnych odpowiedzi:**
 - Dostosowanie funkcji `checkAnswer()` do uwzględnienia różnych poprawnych wariantów tłumaczenia.
+
+## Wersja 0.5 Beta - Komentowanie kodu
+- Skomentowanie kodu
