@@ -1,31 +1,37 @@
+/* Stylizacja główna */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    display: flex; /* Ustawienie Flexboxa na całym ekranie */
+    flex-direction: column; /* Ustawienie elementów jeden pod drugim */
+    align-items: center; /* Wyśrodkowanie elementów w poziomie */
+    justify-content: center; /* Wyśrodkowanie elementów w pionie */
+    min-height: 100vh; /* Pełna wysokość ekranu */
     background-color: #f0f8ff;
 }
 
-.container {
-    width: 90%;
-    max-width: 600px;
+/* Główne okno aplikacji */
+#app {
+    width: 90%; /* Responsywny rozmiar */
+    max-width: 600px; /* Maksymalna szerokość */
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Wszystkie elementy wewnątrz są wyśrodkowane */
 }
 
+/* Nagłówki */
 h1, h2 {
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
+/* Pola tekstowe */
 input[type="text"] {
-    width: 100%;
+    width: 100%; /* Zajmuje całą szerokość kontenera */
+    max-width: 300px; /* Maksymalna szerokość */
     padding: 10px;
     margin: 10px 0;
     font-size: 16px;
@@ -33,9 +39,12 @@ input[type="text"] {
     border-radius: 5px;
 }
 
+/* Przycisk */
 button {
-    padding: 10px 20px;
-    margin: 10px;
+    width: 100%; /* Szerokość dopasowana do kontenera */
+    max-width: 300px; /* Maksymalna szerokość */
+    padding: 10px;
+    margin: 10px 0;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -48,49 +57,47 @@ button:hover {
     background-color: #45a049;
 }
 
+/* Wynik odpowiedzi */
 #result {
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
 }
 
-#addWordForm {
+/* Tabela z listą słówek */
+#wordList {
+    width: 100%; /* Tabela zajmuje całą szerokość */
+    max-width: 600px; /* Maksymalna szerokość */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Wyśrodkowanie tabeli */
+}
+
+#wordTable {
+    width: 100%; /* Zajmuje całą szerokość kontenera */
+    max-width: 500px; /* Maksymalna szerokość */
+    border-collapse: collapse; /* Łączenie krawędzi tabeli */
     margin-top: 20px;
+}
+
+#wordTable th, #wordTable td {
     padding: 10px;
-    background-color: #e9f5e9;
-    border-radius: 8px;
     text-align: center;
+    border: 1px solid #ddd;
 }
 
-#addWordForm input {
-    margin: 5px 0;
-    padding: 10px;
-    width: 100%;
-    font-size: 16px;
+#wordTable th {
+    background-color: #f2f2f2;
 }
 
-#addWordButton {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    width: 100%;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#addWordButton:hover {
-    background-color: #45a049;
-}
-
-/* Stylizacja dla mniejszych ekranów */
+/* Media queries dla mniejszych ekranów */
 @media (max-width: 480px) {
-    h1, h2 {
+    h1 {
         font-size: 20px;
     }
 
     button {
-        width: 100%;
         font-size: 14px;
     }
 
@@ -101,56 +108,8 @@ button:hover {
     #result {
         font-size: 16px;
     }
-}
 
-#addWordForm {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e9f5e9;
-    border-radius: 8px;
-    text-align: center;
-}
-
-#addWordForm input {
-    margin: 5px 0;
-    padding: 10px;
-    width: 100%;
-}
-
-#addWordButton {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#addWordButton:hover {
-    background-color: #45a049;
-}
-
-input, button {
-    width: 100%;
-    max-width: 300px; 
-    margin: 10px 0; 
-    padding: 10px;
-    font-size: 16px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 10px;
-        text-align: center;
+    #wordTable {
+        max-width: 100%;
     }
-
-    h1, h2 {
-        font-size: 1.5em;
-    }
-}
-
-#statistics {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
 }
