@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikacja do nauki hiszpańskiego</title>
+    <title>An application for learning English.</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
-        <h1>Ucz się Hiszpańskiego!</h1>
+        <h1>Learn English!</h1>
         <div id="question">
-            <p id="polishWord">Polskie słowo</p>
+            <p id="polishWord">Word in your language</p>
         </div>
-        <input type="text" id="answer" placeholder="Wpisz odpowiedź">
-        <button id="checkAnswerButton">Sprawdź odpowiedź</button>
+        <input type="text" id="answer" placeholder="Check the answer">
+        <button id="checkAnswerButton">Check the answer</button><br>
         <p id="result"></p>
-        <button id="nextWordButton" style="display:none;">Następne słowo</button>
-        <p id="statistics">Twoje wyniki: 0/0</p>
-
-
-        <div id="addWordForm">
-            <h2>Dodaj nowe słowo</h2>
-            <input type="text" id="newPolishWord" placeholder="Polskie słowo">
-            <input type="text" id="newSpanishWord" placeholder="Hiszpańskie słowo">
-            <button id="addWordButton">Dodaj słowo</button>
-        </div>        
+        <button id="nextWordButton" style="display:none;">Next word</button>
+        <button id="showAnswerButton" style="display: none;">Show the answer</button>
+        
+        <!-- Lista słówek (ukryta domyślnie) -->
+        <div id="wordList" style="display:none;">
+            <h2>List of words</h2>
+            <table id="wordTable">
+                <thead>
+                    <tr>
+                        <th>Word in your language</th>
+                        <th>English</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Słówka będą dodawane dynamicznie -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Przycisk do pokazania/ukrycia listy -->
+        <button id="toggleListButton">Show the list of words</button>
     </div>
-    <script src="app.js"></script>
+
+    <script src="apps.js"></script>
 </body>
 </html>
