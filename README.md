@@ -95,3 +95,29 @@ Aplikacja ma na celu ułatwienie nauki słówek angielskich poprzez interaktywny
 
 ## Wersja 0.5 Beta - Komentowanie kodu
 - Skomentowanie kodu
+
+## Wersja 0.6 Beta - Testowanie aplikacji
+- `Wybrana metoda:` Testowanie systemowe (System Testing).
+- Dlaczego?
+  - Testowanie systemowe sprawdza, czy cała aplikacja działa poprawnie jako zintegrowany system.
+  - Obejmuje wszystkie główne funkcje aplikacji, takie jak wyświetlanie słówek, sprawdzanie odpowiedzi, przechodzenie do następnego słowa, pokazywanie listy słówek i obsługa klawisza Enter.
+2. Zaplanowanie testu aplikacji
+- 1. Wyświetlanie słówek:
+   - Sprawdzenie, czy po uruchomieniu aplikacji wyświetla się pierwsze słowo w języku polskim.
+- 2. Sprawdzanie poprawnej odpowiedzi:
+   - Wprowadzenie poprawnej odpowiedzi i sprawdzenie, czy aplikacja wyświetla komunikat "Good job! Correct answer." oraz pokazuje przycisk "Next word".
+- 3. Sprawdzanie błędnej odpowiedzi:
+   - Wprowadzenie błędnej odpowiedzi i sprawdzenie, czy aplikacja wyświetla komunikat "Try again." oraz pokazuje przycisk "Show the answer".
+- 4. Przechodzenie do następnego słowa:
+   - Kliknięcie przycisk "Next word" i sprawdzenie, czy wyświetla się nowe słowo.
+- 5. Pokazywanie listy słówek:
+   - Kliknięcie przycisk "Show the list of words" i sprawdzenie, czy lista słówek jest wyświetlana w formie tabeli.
+- 6. Obsługa klawisza Enter:
+   - Sprawdzenie, czy naciśnięcie klawisza Enter działa jak kliknięcie przycisku "Check the answer" lub "Next word".
+3. Kryteria akceptacji:
+- Wszystkie funkcje muszą działać zgodnie z oczekiwaniami.
+- Komunikaty błędów i sukcesów muszą być wyświetlane poprawnie.
+- Interakcje z użytkownikiem (klikanie przycisków, wpisywanie odpowiedzi) muszą być płynne i bezbłędne.
+4. Ukończyć test:
+- Jeśli wszystkie testy zakończyły się sukcesem, aplikacja jest gotowa do dalszego rozwoju lub wdrożenia.
+- Jeśli wystąpiły błędy, należy je zgłosić i poprawić.
