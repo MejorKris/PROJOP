@@ -121,3 +121,28 @@ Aplikacja ma na celu ułatwienie nauki słówek angielskich poprzez interaktywny
 4. **Ukończyć test:**
 - Jeśli wszystkie testy zakończyły się sukcesem, aplikacja jest gotowa do dalszego rozwoju lub wdrożenia.
 - Jeśli wystąpiły błędy, należy je zgłosić i poprawić.
+
+## Wersja 0.8 Beta - Debugowanie aplikacji
+
+Cel wersji:
+**Wersja 0.8 Beta** skupia się na identyfikacji i eliminacji błędów w działaniu aplikacji. Celem jest zwiększenie stabilności, poprawności działania oraz wydajności aplikacji przed ewentualnym wydaniem wersji finalnej.
+
+**Wprowadzone zmiany i usprawnienia:**
+**Naprawa błędów logicznych:**
+- Zoptymalizowano działanie funkcji losującej słowa, by nie powtarzała zbyt często tych samych słów z niską wagą.
+- Poprawiono błąd, w którym po kliknięciu „Next word” nie resetowało się pole tekstowe.
+- Upewniono się, że po kliknięciu „Show the answer” użytkownik nie może ponownie zatwierdzić odpowiedzi.
+
+**Poprawki interfejsu:**
+- Ulepszono wyświetlanie komunikatów, by nie nachodziły na siebie w przypadku szybkich odpowiedzi.
+- Zwiększono czytelność przycisków i pól tekstowych na urządzeniach mobilnych.
+- Stabilność działania:
+- Zabezpieczono aplikację przed zawieszeniem się przy pustej liście słówek.
+- Dodano warunki sprawdzające poprawność danych pobieranych z Local Storage.
+
+**Usprawnienie kodu:**
+- Wprowadzono dodatkowe komentarze i refaktoryzację w miejscach, gdzie logika była nieczytelna.
+- Wykryto i usunięto zbędne zmienne globalne.
+
+**Testy regresji:**
+- Przeprowadzono testy regresji, aby upewnić się, że nowe zmiany nie spowodowały błędów w działających wcześniej funkcjach (m.in. losowanie słów, przyciski, lista słówek).
