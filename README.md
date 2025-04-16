@@ -124,8 +124,7 @@ Aplikacja ma na celu ułatwienie nauki słówek angielskich poprzez interaktywny
 
 ## Wersja 0.8 Beta - Debugowanie aplikacji
 
-Cel wersji:
-**Wersja 0.8 Beta** skupia się na identyfikacji i eliminacji błędów w działaniu aplikacji. Celem jest zwiększenie stabilności, poprawności działania oraz wydajności aplikacji przed ewentualnym wydaniem wersji finalnej.
+**Cel wersji:** Wersja 0.8 Beta skupia się na identyfikacji i eliminacji błędów w działaniu aplikacji. Celem jest zwiększenie stabilności, poprawności działania oraz wydajności aplikacji przed ewentualnym wydaniem wersji finalnej.
 
 **Wprowadzone zmiany i usprawnienia:**
 **Naprawa błędów logicznych:**
