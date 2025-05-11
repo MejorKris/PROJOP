@@ -145,3 +145,14 @@ Aplikacja ma na celu ułatwienie nauki słówek angielskich poprzez interaktywny
 
 **Testy regresji:**
 - Przeprowadzono testy regresji, aby upewnić się, że nowe zmiany nie spowodowały błędów w działających wcześniej funkcjach (m.in. losowanie słów, przyciski, lista słówek).
+
+## Wersja 1.0 Beta - Finalna wersja aplikacji
+
+**Wszystkie główne funkcje aplikacji zostały zaimplementowane:**
+- Dodano licencje oprogramowania.
+- Możliwość sprawdzania odpowiedzi i przechodzenia do następnego słowa.
+- Zintegrowany mechanizm wag dostosowujący częstotliwość wyświetlania słówek.
+- Wyświetlanie pełnej listy słówek.
+- Obsługa klawisza Enter do szybszej nawigacji.
+- Responsywny interfejs na urządzeniach mobilnych.
+- Aplikacja jest gotowa do użycia.
