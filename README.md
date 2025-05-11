@@ -122,6 +122,29 @@ Aplikacja ma na celu ułatwienie nauki słówek angielskich poprzez interaktywny
 - Jeśli wszystkie testy zakończyły się sukcesem, aplikacja jest gotowa do dalszego rozwoju lub wdrożenia.
 - Jeśli wystąpiły błędy, należy je zgłosić i poprawić.
 
+## Wersja 0.7 Beta - Implementacja cz.2
+
+**Cel projektu:**
+- Aplikacja wspomaga naukę języka angielskiego poprzez quizy tłumaczeniowe, umożliwiając użytkownikowi naukę słówek w interaktywny sposób.
+**Użyte technologie:**
+- `Frontend:` HTML, CSS, JavaScript.
+- `Backend (planowany):` Node.js, MongoDB.
+**Interfejs programu:**
+- Ekran główny z tłumaczeniami słówek.
+- Pole tekstowe do wpisania odpowiedzi.
+- Przycisk do przejścia do następnego słowa.
+- Informacje zwrotne o poprawności odpowiedzi.
+**Funkcjonalności:**
+- Tłumaczenie słówek (polski -> angielski).
+- Losowanie słówek.
+- Informacje zwrotne o poprawności odpowiedzi.
+- Historia słówek.
+**Kierunki dalszego rozwoju:**
+- Rozbudowa bazy danych słówek.
+- Aplikacja mobilna.
+- Personalizacja i możliwość dodawania własnych słówek.
+- Funkcje społecznościowe.
+
 ## Wersja 0.8 Beta - Debugowanie aplikacji
 
 **Cel wersji:** Wersja 0.8 Beta skupia się na identyfikacji i eliminacji błędów w działaniu aplikacji. Celem jest zwiększenie stabilności, poprawności działania oraz wydajności aplikacji przed ewentualnym wydaniem wersji finalnej.
