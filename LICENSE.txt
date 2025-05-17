@@ -1,8 +1,0 @@
-Copyright (c) 2025 Krystian Pietuchowski
-
-Niniejszym udziela się każdej osobie, która otrzyma kopię tego oprogramowania oraz powiązanej dokumentacji (dalej „Oprogramowanie”), bezpłatnego pozwolenia na użytkowanie Oprogramowania do celów edukacyjnych, w tym na: używanie, kopiowanie, modyfikowanie, łączenie, publikowanie oraz rozpowszechnianie kopii Oprogramowania, z zastrzeżeniem następujących warunków:
-
-1. Powyższa informacja o prawach autorskich oraz niniejsza zgoda muszą być dołączone do każdej kopii lub istotnej części Oprogramowania.
-2. Oprogramowanie nie może być wykorzystywane do celów komercyjnych bez uprzedniej pisemnej zgody autora.
-
-Oprogramowanie jest dostarczane „tak jak jest”, bez jakiejkolwiek gwarancji, wyraźnej lub dorozumianej, w tym między innymi gwarancji przydatności handlowej, przydatności do określonego celu oraz nienaruszalności praw.
